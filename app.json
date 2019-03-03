@@ -1,0 +1,46 @@
+{
+  "pages": [
+   
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/mine/mine",
+    "pages/area/area",
+    "pages/agency/agency",
+    "pages/my/my",
+    "pages/form/form",
+    "pages/introduction/introduction",
+    "pages/teacher-menu/teacher-menu",
+    "pages/teacher-area/teacher-area",
+    "pages/teacher/teacher"
+   
+  ],
+  "window": {
+    "navigationBarTitleText": "乐音站",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#CDC9C9"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "乐机构",
+        "iconPath": "image/tab/menu.png",
+        "selectedIconPath": "image/tab/menu_hl.png"
+      },
+      {
+        "pagePath": "pages/teacher-menu/teacher-menu",
+        "text": "乐教师",
+        "iconPath": "image/tab/menu.png",
+        "selectedIconPath": "image/tab/menu_hl.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/tab/my.png",
+        "selectedIconPath": "image/tab/my_hl.png"
+      }
+    ]
+  },
+  "cloud": true
+}
